@@ -36,7 +36,7 @@ const Revisiones = () => {
     >
       {revisiones.map((item, index) => (
         <div
-          className="p-3 shadow-all bg-white min-w-60 h-96 rounded-lg flex flex-col items-center justify-center"
+          className="phone:h-auto mac:h-96 p-3 shadow-all bg-white min-w-60 rounded-lg flex flex-col items-center justify-center"
           key={index}
         >
           <div

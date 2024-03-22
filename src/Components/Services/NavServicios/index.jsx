@@ -42,7 +42,7 @@ const NavServicios = () => {
 
   return (
     <div className="box-border w-4/5  ">
-      <h1 className="text-4xl font-bold mb-10 text-center">
+      <h1 className="phone:text-3xl tablet:text-4xl font-bold phone:mb-5 tablet:mb-10 text-center">
         Servicios de Mecanica
       </h1>
       <div className="flex flex-row tablet:gap-5 p-3 phone:flex-wrap phone:items-center phone:justify-center phone:gap-2 laptop:flex-nowrap">

@@ -1,16 +1,15 @@
-import React, { useState } from 'react'
+import React from 'react'
 
-const Nav = () => {
-  const [isOpen, setIsOpen] = useState(false)
+const Nav = ({ isOpen, setIsOpen }) => {
   const phone = window.innerWidth < 850
-  console.log(phone)
 
   return (
     <>
       {phone ? (
         <nav
+          isopen={isOpen}
           className="shadow-custom py-4  overflow-hidden"
-          style={{ height: isOpen ? '320px' : 'auto' }}
+          style={{ height: isOpen ? '100vh' : 'auto' }}
         >
           <div className="flex justify-between items-center px-4 mac:px-10">
             <h1 className="text-4xl font-bold">FreeWay</h1>

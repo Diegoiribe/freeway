@@ -147,20 +147,20 @@ const Galeria = () => {
       style={{ background: 'linear-gradient(to bottom, #EEF3F6, #FFFFFF)' }}
     >
       <div className="w-5/6 p-5">
-        <h1 className="text-4xl font-bold mb-10 text-start">
+        <h1 className="tablet:text-4xl phone:text-3xl font-bold phone:mb-0 tablet:mb-10 text-start">
           Conoce nuestro taller
         </h1>
       </div>
 
       <div className="w-5/6 h-4/6 p-5">
         <div
-          className="flex w-full h-full shadow-custom rounded-3xl"
+          className="flex phone:flex-col tablet:flex-row w-full h-full shadow-custom rounded-3xl"
           style={{ overflow: 'hidden' }}
         >
           {imgActive.map((item, index) => (
             <div
               key={index}
-              className="w-2/6 h-full  transition-transform duration-300 ease-in-out transform hover:scale-110 "
+              className="phone:w-full phone:h-2/6 tablet:w-2/6 tablet:h-full  transition-transform duration-300 ease-in-out transform hover:scale-110 "
               style={{
                 backgroundImage: `url(${item.img})`,
                 backgroundSize: 'cover',
@@ -168,8 +168,7 @@ const Galeria = () => {
               }}
               onClick={() => Active(item.value)}
             >
-              <div className="absolute top-0 left-0 right-0 bottom-0 bg-black opacity-50 p-5 hover:p-10 hover:opacity-20 cursor-pointer">
-                {' '}
+              <div className=" bg-black phone:h-full opacity-50 p-5 tablet:hover:p-10 hover:opacity-20 cursor-pointer phone:flex tablet:block">
                 <p className="text-white font-bold text-4xl ">{item.title}</p>
                 <span>
                   <ArrowForwardIosIcon

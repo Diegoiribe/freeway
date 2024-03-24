@@ -32,17 +32,17 @@ const NavNosotros = () => {
 
   return (
     <div className="box-border w-4/5 h-full flex flex-col justify-center ">
-      <h1 className="text-4xl font-bold mb-10 text-start max-w-lg">
+      <h1 className="phone:text-3xl tablet:text-4xl font-bold mb-10 text-start max-w-lg">
         Nuestras Base: Quiénes Somos y Hacia Dónde Vamos
       </h1>
-      <div className="flex flex-row gap-5 p-3">
+      <div className="flex flex-row gap-5 p-3 overflow-auto">
         {about.map((item, index) => (
           <div
             className={` ${
               aboutActive === item.title
                 ? 'border-black text-black'
                 : 'border-gray-400 text-gray-400'
-            } w-1/5 h-10 flex flex-row justify-start items-center  gap-5 bg-transparent cursor-pointer border-b-2 hover:border-black hover:text-black `}
+            } phone:min-w-28 mac:w-1/5 h-10 flex flex-row justify-start items-center  gap-5 bg-transparent cursor-pointer border-b-2 hover:border-black hover:text-black `}
             key={index}
             onClick={() => NavActive(item.title)}
           >

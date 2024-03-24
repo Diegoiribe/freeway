@@ -2,16 +2,16 @@ import React from 'react'
 
 const Valores = () => {
   return (
-    <div className="flex flex-row mt-20 w-full h-5/6 gap-5">
+    <div className="flex phone:flex-col tablet:flex-row phone:mt-5 tablet:mt-20  w-full h-5/6 gap-5">
       <div
-        className="w-4/5 h-full rounded-xl bg-cover bg-center bg-no-repeat"
+        className="phone:w-full tablet:w-4/5 phone:h-1/4 tablet:h-full rounded-xl bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: `url(https://www.cocheactual.com/wp-content/uploads/2023/03/problemas-de-los-talleres-mecanicos.jpg)`,
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat'
         }}
       ></div>
-      <div className="w-80 flex flex-col gap-5 p-2">
+      <div className="phone:w-auto tablet:w-80 flex flex-col gap-5 p-2">
         <p className="text-2xl font-bold text-center">Valores</p>
         <p>
           Integridad: Actuar con honestidad y transparencia en todas nuestras

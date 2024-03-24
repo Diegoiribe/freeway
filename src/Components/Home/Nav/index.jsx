@@ -32,7 +32,7 @@ const Nav = ({ isOpen, setIsOpen }) => {
           </ul>
         </nav>
       ) : (
-        <nav className="flex flex-row justify-around shadow-custom py-4">
+        <nav className="flex flex-row justify-around shadow-custom py-4 overflow-hidden">
           <h1 className="text-4xl font-bold h-10">FreeWay</h1>
           <ul className="flex flex-row gap-5 items-center justify-center">
             <li className="xl:text-xl">Inicio</li>

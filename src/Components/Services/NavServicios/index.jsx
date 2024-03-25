@@ -50,13 +50,13 @@ const NavServicios = () => {
       <div className="flex flex-row tablet:gap-5 p-3 phone:flex-wrap phone:items-center phone:justify-center phone:gap-2 laptop:flex-nowrap">
         {servicios.map((item, index) => (
           <div
-            className="phone:w-full phone:h-10 tablet:w-1/5 tablet:h-16 flex flex-row justify-center items-center rounded-2xl gap-5 bg-black shadow-all cursor-pointer phone:p-2 mac:p-0 text-white hover:text-black hover:bg-white duration-300 ease-in-out  "
+            className={` ${
+              card === item.value
+                ? 'bg-red-600 text-white'
+                : 'bg-white text-black'
+            } phone:w-full phone:h-10 tablet:w-1/5 tablet:h-16 flex flex-row justify-center items-center rounded-2xl gap-5 bg-white shadow-all cursor-pointer phone:p-2 mac:p-0 text-black hover:text-white hover:bg-red-600 duration-300 ease-in-out  `}
             key={index}
             onClick={() => Active(item.value)}
-            style={{
-              background: card === item.value ? '#fff' : 'black',
-              color: card === item.value ? 'black' : 'white'
-            }}
           >
             <div
               className="w-14 h-14  phone:hidden tablet:block"

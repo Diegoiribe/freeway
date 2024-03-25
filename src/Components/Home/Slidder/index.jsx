@@ -2,9 +2,7 @@ import React, { useState, useEffect } from 'react'
 
 const Slidder = () => {
   const img = [
-    'https://www.nissanusa.com/content/dam/Nissan/us/vehicles/ariya/2023/gallery/exterior-mosaic/2023-nissan-ariya-3d-layered-led-taillights-o.jpg',
-    'https://www.nissanusa.com/content/dam/Nissan/us/vehicles/maxima/2023/Gallery/Mosaics/exterior/Overlay/2023-nissan-maxima-platinum-in-a-tunnel_o.jpg',
-    'https://cloudfront-eu-central-1.images.arcpublishing.com/diarioas/WR2MC7HGAJHKTM4AA67FOEV5Z4.jpg'
+    'https://multiserviciosguamuchilito.com/wp-content/uploads/2021/08/Taller-automotriz-en-Culiacan-1.png'
   ]
 
   const [currentImg, setCurrentImg] = useState(0)
@@ -42,11 +40,11 @@ const Slidder = () => {
           Excelencia en Servicio Técnico: Mantenimiento Avanzado, Diagnósticos
           Precisos y Soluciones Integrales para tu Vehículo Nissan
         </p>
-        <button className=" text-lg mt-3 p-3 bg-white w-80 rounded-2xl font-semibold hover:bg-black hover:text-white cursor-pointer">
+        <button className=" text-lg mt-3 p-3 bg-white w-80 rounded-2xl font-semibold hover:bg-black hover:text-white cursor-pointer shadow-custom">
           Contacto
         </button>
       </div>
-      <div className="w-full h-1/4 bg-black flex justify-center items-center opacity-80">
+      <div className="w-full h-1/4 bg-black flex justify-center items-center">
         <p className="mac:text-4xl text-white font-bold phone:text-2xl phone:text-center">
           ¡Dejanos tu auto y nosotros te llevamos!
         </p>

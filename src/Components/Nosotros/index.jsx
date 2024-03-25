@@ -5,7 +5,7 @@ const Nosotros = () => {
   return (
     <div
       className="w-screen h-screen flex flex-col  justify-center items-center"
-      style={{ background: 'linear-gradient(to bottom, #ffffff, #EEF3F6)' }}
+      style={{ background: 'linear-gradient(to bottom, #ffffff, #ffffff)' }}
     >
       <NavNosotros />
     </div>

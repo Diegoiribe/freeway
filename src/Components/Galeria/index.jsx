@@ -9,6 +9,8 @@ const preloadImages = (srcArray) => {
 }
 
 const Galeria = () => {
+  const phone = window.innerWidth < 780
+
   const taller = [
     {
       img: 'https://talleractual.com/images/articles/taller-actual/notas/institucionales/2018/01/tecnica-2018-01-12-zona-segura-para-el-taller-mecanico-01.jpg',
@@ -142,46 +144,52 @@ const Galeria = () => {
   }
 
   return (
-    <div
-      className="h-screen w-screen flex flex-col justify-center items-center "
-      style={{ background: 'linear-gradient(to bottom, #EEF3F6, #FFFFFF)' }}
-    >
-      <div className="w-5/6 p-5">
-        <h1 className="tablet:text-4xl phone:text-3xl font-bold phone:mb-0 tablet:mb-10 text-start">
-          Conoce nuestro taller
-        </h1>
-      </div>
-
-      <div className="w-5/6 h-4/6 p-5">
+    <>
+      {phone ? null : (
         <div
-          className="flex phone:flex-col tablet:flex-row w-full h-full shadow-custom rounded-3xl"
-          style={{ overflow: 'hidden' }}
+          className="h-screen w-screen flex flex-col justify-center items-center "
+          style={{ background: 'linear-gradient(to bottom, #EEF3F6, #FFFFFF)' }}
         >
-          {imgActive.map((item, index) => (
+          <div className="w-5/6 p-5">
+            <h1 className="tablet:text-4xl phone:text-3xl font-bold phone:mb-0 tablet:mb-10 text-start">
+              Conoce nuestro taller
+            </h1>
+          </div>
+
+          <div className="w-5/6 h-4/6 p-5">
             <div
-              key={index}
-              className="phone:w-full phone:h-2/6 tablet:w-2/6 tablet:h-full  transition-transform duration-300 ease-in-out transform hover:scale-110 "
-              style={{
-                backgroundImage: `url(${item.img})`,
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat'
-              }}
-              onClick={() => Active(item.value)}
+              className="flex phone:flex-col tablet:flex-row w-full h-full shadow-custom rounded-3xl"
+              style={{ overflow: 'hidden' }}
             >
-              <div className=" bg-black phone:h-full opacity-50 p-5 tablet:hover:p-10 hover:opacity-20 cursor-pointer phone:flex tablet:block">
-                <p className="text-white font-bold text-4xl ">{item.title}</p>
-                <span>
-                  <ArrowForwardIosIcon
-                    fontSize="large"
-                    className="text-white font-bold text-4xl "
-                  />
-                </span>
-              </div>
+              {imgActive.map((item, index) => (
+                <div
+                  key={index}
+                  className="phone:w-full phone:h-2/6 tablet:w-2/6 tablet:h-full  transition-transform duration-300 ease-in-out transform hover:scale-110 "
+                  style={{
+                    backgroundImage: `url(${item.img})`,
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat'
+                  }}
+                  onClick={() => Active(item.value)}
+                >
+                  <div className=" bg-black phone:h-full opacity-50 p-5 tablet:hover:p-10 hover:opacity-20 cursor-pointer phone:flex tablet:block">
+                    <p className="text-white font-bold text-4xl ">
+                      {item.title}
+                    </p>
+                    <span>
+                      <ArrowForwardIosIcon
+                        fontSize="large"
+                        className="text-white font-bold text-4xl "
+                      />
+                    </span>
+                  </div>
+                </div>
+              ))}
             </div>
-          ))}
+          </div>
         </div>
-      </div>
-    </div>
+      )}
+    </>
   )
 }
 

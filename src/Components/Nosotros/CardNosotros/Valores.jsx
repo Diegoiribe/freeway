@@ -5,14 +5,14 @@ const Valores = () => {
   return (
     <div className="flex phone:flex-col tablet:flex-row phone:mt-5 tablet:mt-20  w-full h-5/6 gap-5">
       <div
-        className="phone:w-full tablet:w-4/5 phone:h-1/4 tablet:h-full rounded-xl bg-cover bg-center bg-no-repeat"
+        className="phone:w-full tablet:w-4/5 phone:h-2/4 tablet:h-full rounded-xl bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: `url(https://www.cocheactual.com/wp-content/uploads/2023/03/problemas-de-los-talleres-mecanicos.jpg)`,
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat'
         }}
       ></div>
-      <div className="phone:w-auto tablet:w-80 flex flex-col gap-5 p-2">
+      <div className="phone:w-auto tablet:w-80 flex flex-col gap-5 p-2 phone:h-96 tablet:h-auto">
         <p className="text-2xl font-bold text-center">Valores</p>
         {phone ? (
           <p>

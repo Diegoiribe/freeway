@@ -40,8 +40,6 @@ const NavServicios = () => {
     setCard(item)
   }
 
-  const phone = window.innerWidth < 768
-
   return (
     <div className="box-border phone:w-full mac:w-4/5   ">
       <h1 className="phone:text-3xl tablet:text-4xl font-bold phone:mb-5 tablet:mb-10 text-center">
@@ -54,7 +52,7 @@ const NavServicios = () => {
               card === item.value
                 ? 'bg-red-700 text-white'
                 : 'bg-white text-black'
-            } phone:w-full phone:h-10 tablet:w-1/5 tablet:h-16 flex flex-row justify-center items-center rounded-2xl gap-5 bg-white shadow-all cursor-pointer phone:p-2 mac:p-0 text-black hover:text-white hover:bg-red-700 duration-300 ease-in-out  `}
+            } phone:w-full phone:h-10 tablet:w-1/5 tablet:h-16 flex flex-row justify-center items-center rounded-2xl gap-5  shadow-all cursor-pointer phone:p-2 mac:p-0 hover:text-white hover:bg-red-700 duration-300 ease-in-out  `}
             key={index}
             onClick={() => Active(item.value)}
           >

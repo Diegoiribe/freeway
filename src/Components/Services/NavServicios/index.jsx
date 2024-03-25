@@ -52,9 +52,9 @@ const NavServicios = () => {
           <div
             className={` ${
               card === item.value
-                ? 'bg-red-600 text-white'
+                ? 'bg-red-700 text-white'
                 : 'bg-white text-black'
-            } phone:w-full phone:h-10 tablet:w-1/5 tablet:h-16 flex flex-row justify-center items-center rounded-2xl gap-5 bg-white shadow-all cursor-pointer phone:p-2 mac:p-0 text-black hover:text-white hover:bg-red-600 duration-300 ease-in-out  `}
+            } phone:w-full phone:h-10 tablet:w-1/5 tablet:h-16 flex flex-row justify-center items-center rounded-2xl gap-5 bg-white shadow-all cursor-pointer phone:p-2 mac:p-0 text-black hover:text-white hover:bg-red-700 duration-300 ease-in-out  `}
             key={index}
             onClick={() => Active(item.value)}
           >

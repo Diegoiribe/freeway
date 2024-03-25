@@ -31,20 +31,23 @@ const Slidder = () => {
     >
       <div className="phone:h-full w-full mac:h-3/4 flex justify-center items-center flex-col gap-5 ">
         <h1
-          className=" text-white font-bold max-w-5xl text-center phone:p-1 mac:p-0"
-          style={{ fontSize: phone ? '1.5rem' : '3rem' }}
+          className="phone:mt-12 tablet:mt-0 text-white font-bold max-w-5xl text-center phone:p-1 mac:p-0"
+          style={{ fontSize: phone ? '1.75rem' : '3rem' }}
         >
           Servicio Automotriz en Culiacan especialisados en Nissan
         </h1>
-        <p className="text-white tablet:text-xl mac:text-2xl max-w-lg mt-3 p-3 font-bold text-center phone:text-lg">
-          Excelencia en Servicio Técnico: Mantenimiento Avanzado, Diagnósticos
-          Precisos y Soluciones Integrales para tu Vehículo Nissan
-        </p>
+        {phone ? null : (
+          <p className="text-white tablet:text-xl mac:text-2xl max-w-lg mt-3 p-3 font-bold text-center phone:text-lg">
+            Excelencia en Servicio Técnico: Mantenimiento Avanzado, Diagnósticos
+            Precisos y Soluciones Integrales para tu Vehículo Nissan
+          </p>
+        )}
+
         <button className=" text-lg mt-3 p-3 bg-white w-80 rounded-2xl font-semibold hover:bg-black hover:text-white cursor-pointer shadow-custom">
           Contacto
         </button>
       </div>
-      <div className="w-full h-1/4 bg-black flex justify-center items-center">
+      <div className="w-full h-1/4 bg-black opacity-80 flex justify-center items-center">
         <p className="mac:text-4xl text-white font-bold phone:text-2xl phone:text-center">
           ¡Dejanos tu auto y nosotros te llevamos!
         </p>

@@ -12,7 +12,7 @@ const Nav = ({ isOpen, setIsOpen }) => {
           style={{ height: isOpen ? '100vh' : 'auto' }}
         >
           <div className="flex justify-between items-center px-4 mac:px-10">
-            <h1 className="text-4xl font-bold">FreeWay</h1>
+            <h1 className="text-4xl font-bold ">FreeWay</h1>
             <button onClick={() => setIsOpen(!isOpen)} className="mac:hidden">
               {/* Aquí puedes usar un ícono para el menú de hamburguesa */}
               <span>Menu</span>

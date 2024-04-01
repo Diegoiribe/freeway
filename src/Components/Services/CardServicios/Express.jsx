@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import 'lazysizes'
 
 const Express = () => {
   const [express, setExpress] = useState([
@@ -45,7 +46,8 @@ const Express = () => {
           key={index}
         >
           <div
-            className="w-40 h-40 "
+            className="w-40 h-40 lazyload"
+            data-bg={item.img}
             style={{
               backgroundImage: `url(${item.img})`,
               backgroundSize: 'cover',

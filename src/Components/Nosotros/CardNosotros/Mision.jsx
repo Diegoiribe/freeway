@@ -1,10 +1,12 @@
 import React from 'react'
+import 'lazysizes'
 
 const Mision = () => {
   return (
     <div className="flex phone:flex-col tablet:flex-row phone:mt-5 tablet:mt-20  w-full h-5/6 gap-5">
       <div
-        className="phone:w-full tablet:w-4/5 phone:h-2/4 tablet:h-full rounded-xl bg-cover bg-center bg-no-repeat"
+        className="phone:w-full tablet:w-4/5 phone:h-2/4 tablet:h-full rounded-xl bg-cover bg-center bg-no-repeat lazyload"
+        data-bg="https://pbs.twimg.com/media/GKGk51oa4AARMvC?format=jpg&name=large"
         style={{
           backgroundImage: `url(https://pbs.twimg.com/media/GKGk51oa4AARMvC?format=jpg&name=large)`,
           backgroundSize: 'cover',

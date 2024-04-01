@@ -1,5 +1,6 @@
 import React from 'react'
 import WhatsAppIcon from '@mui/icons-material/WhatsApp'
+import 'lazysizes'
 
 const Contacto = () => {
   return (
@@ -41,7 +42,8 @@ const Contacto = () => {
           </div>
           <div className="tablet:w-5/6 phone:w-full tablet:h-3/6 phone:h-80 rounded-xl">
             <iframe
-              className="w-full h-full"
+              className="w-full h-full lazyload"
+              data-bg="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.8728671992358!2d-107.41380472391187!3d24.83402094631364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86bcda6af7167899%3A0xae1c6c4ec6636dcc!2sEmile%20Barline%201527%2C%20Pedregal%20del%20Humaya%2C%2080029%20Culiac%C3%A1n%20Rosales%2C%20Sin.!5e0!3m2!1ses!2smx!4v1712000116949!5m2!1ses!2smx"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.8728671992358!2d-107.41380472391187!3d24.83402094631364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86bcda6af7167899%3A0xae1c6c4ec6636dcc!2sEmile%20Barline%201527%2C%20Pedregal%20del%20Humaya%2C%2080029%20Culiac%C3%A1n%20Rosales%2C%20Sin.!5e0!3m2!1ses!2smx!4v1712000116949!5m2!1ses!2smx"
               style={{ border: 0 }}
               allowfullscreen=""

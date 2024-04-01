@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos'
+import 'lazysizes'
 
 const preloadImages = (srcArray) => {
   srcArray.forEach((src) => {
@@ -165,7 +166,8 @@ const Galeria = () => {
               {imgActive.map((item, index) => (
                 <div
                   key={index}
-                  className="phone:w-full phone:h-2/6 tablet:w-2/6 tablet:h-full  transition-transform duration-300 ease-in-out transform hover:scale-110 "
+                  className="phone:w-full phone:h-2/6 tablet:w-2/6 tablet:h-full  transition-transform duration-300 ease-in-out transform hover:scale-110 lazyload"
+                  data-bg={item.img}
                   style={{
                     backgroundImage: `url(${item.img})`,
                     backgroundSize: 'cover',

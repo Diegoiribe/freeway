@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import 'lazysizes'
 
 const Slidder = () => {
   const img = [
@@ -22,7 +23,8 @@ const Slidder = () => {
 
   return (
     <div
-      className="tablet:w-full box-border phone:h-full mac:w-4/5 mac:h-5/6 rounded-3xl flex flex-col justify-end items-center"
+      className="tablet:w-full box-border phone:h-full mac:w-4/5 mac:h-5/6 rounded-3xl flex flex-col justify-end items-center lazyload"
+      data-bg={img[currentImg]}
       style={{
         backgroundImage: `url(${img[currentImg]})`,
         backgroundSize: 'cover',

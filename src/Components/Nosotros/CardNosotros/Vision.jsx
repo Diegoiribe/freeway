@@ -1,11 +1,13 @@
 import React from 'react'
+import 'lazysizes'
 
 const Vision = () => {
   const phone = window.innerWidth < 768
   return (
     <div className="flex phone:flex-col tablet:flex-row phone:mt-5 tablet:mt-20 w-full h-5/6 gap-5">
       <div
-        className="phone:w-full tablet:w-4/5 phone:h-2/4 tablet:h-full rounded-xl bg-cover bg-center bg-no-repeat"
+        className="phone:w-full tablet:w-4/5 phone:h-2/4 tablet:h-full rounded-xl bg-cover bg-center bg-no-repeat lazyload"
+        data-bg="https://pbs.twimg.com/media/GKGk83daUAA24PJ?format=jpg&name=large"
         style={{
           backgroundImage: `url(https://pbs.twimg.com/media/GKGk83daUAA24PJ?format=jpg&name=large)`,
           backgroundSize: 'cover',

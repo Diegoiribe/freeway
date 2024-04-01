@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import 'lazysizes'
 
 const Diagnosticos = () => {
   const [diagnosticos, setDiagnosticos] = useState([
@@ -45,7 +46,8 @@ const Diagnosticos = () => {
           key={index}
         >
           <div
-            className="w-40 h-40 "
+            className="w-40 h-40 lazyload"
+            data-bg={item.img}
             style={{
               backgroundImage: `url(${item.img})`,
               backgroundSize: 'cover',

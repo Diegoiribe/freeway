@@ -1,4 +1,5 @@
 import React from 'react'
+import 'lazysizes'
 import './App.css'
 import Home from './Components/Home'
 import Services from './Components/Services'

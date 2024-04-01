@@ -24,22 +24,42 @@ const Nav = ({ isOpen, setIsOpen }) => {
               isOpen ? 'block' : 'hidden'
             } mac:flex mac:flex-row mac:gap-5 mac:items-center mac:justify-center`}
           >
-            <li className="text-xl">Inicio</li>
-            <li className="text-xl">Servicios</li>
-            <li className="text-xl">Nosotros</li>
-            <li className="text-xl">Galeria</li>
-            <li className="text-xl">Contacto</li>
+            <a href="#inicio">
+              <li className="text-xl">Inicio</li>
+            </a>
+            <a href="#servicios">
+              <li className="text-xl">Servicios</li>
+            </a>
+            <a href="#nosotros">
+              {' '}
+              <li className="text-xl">Nosotros</li>
+            </a>
+            <a href="#contacto">
+              <li className="text-xl">Contacto</li>
+            </a>
           </ul>
         </nav>
       ) : (
         <nav className="flex flex-row justify-around shadow-custom py-4 overflow-hidden">
           <h1 className="text-4xl font-bold h-10">FreeWay</h1>
           <ul className="flex flex-row gap-5 items-center justify-center">
-            <li className="xl:text-xl">Inicio</li>
-            <li className="xl:text-xl">Servicios</li>
-            <li className="xl:text-xl">Nosotros</li>
-            <li className="xl:text-xl">Galeria</li>
-            <li className="xl:text-xl">Contacto</li>
+            <a href="#inicio">
+              <li className="text-xl">Inicio</li>
+            </a>
+            <a href="#servicios">
+              <li className="text-xl">Servicios</li>
+            </a>
+            <a href="#nosotros">
+              {' '}
+              <li className="text-xl">Nosotros</li>
+            </a>
+            <a href="#galeria">
+              {' '}
+              <li className="text-xl">Galeria</li>
+            </a>
+            <a href="#contacto">
+              <li className="text-xl">Contacto</li>
+            </a>
           </ul>
         </nav>
       )}

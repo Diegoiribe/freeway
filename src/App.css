@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rakkas&family=Rowdies:wght@300;400;700&family=Rubik+Scribble&display=swap');
+
 * {
   box-sizing: border-box;
   overflow-x: hidden;
-  font-family: 'Epidemic', sans-serif;
+  font-family: 'Monserrat', sans-serif;
 }
 ::-webkit-scrollbar-thumb {
   background: #888; /* Color de tu elección */

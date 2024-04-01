@@ -3,7 +3,10 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp'
 
 const Contacto = () => {
   return (
-    <div className="w-screen tablet:h-screen flex justify-center items-center">
+    <div
+      id="contacto"
+      className="w-screen tablet:h-screen flex justify-center items-center"
+    >
       <div className="tablet:w-5/6 phone:w-full tablet:h-full flex phone:flex-col tablet:flex-row justify-center items-center p-5">
         <div className="phone:w-full tablet:w-4/6 tablet:h-full flex flex-col justify-center items-center phone:mb-10 tablet:mb-0">
           <div className="w-full">
@@ -14,7 +17,7 @@ const Contacto = () => {
           </div>
           <div className="phone:w-full tablet:w-5/6 flex phone:flex-col tablet:flex-row gap-5 mt-5 phone:mb-5 tablet:mb-0 phone:p-2 tablet:p-5 justify-around">
             <a
-              href="#"
+              href="https://wa.me/526671390893"
               className="tablet:w-2/6 phone:w-full h-16 flex flex-row justify-center items-center rounded-2xl gap-5 shadow-all cursor-pointer font-bold hover:bg-black "
               style={{ color: '#40bc78' }}
             >
@@ -30,16 +33,16 @@ const Contacto = () => {
               +52 66-74-98-96-98
             </p>
             <p
-              className="tablet:w-2/6 phone:w-full h-16 flex flex-row justify-center items-center rounded-2xl gap-5 shadow-all cursor-pointer font-bold hover:bg-black"
+              className="tablet:w-2/5 phone:w-full h-16 flex flex-row justify-center items-center rounded-2xl gap-5 shadow-all cursor-pointer font-bold hover:bg-black px-2"
               style={{ color: '#FFA62B' }}
             >
-              info@contacto.com
+              freewaytallermecanico@gmail.com
             </p>
           </div>
           <div className="tablet:w-5/6 phone:w-full tablet:h-3/6 phone:h-80 rounded-xl">
             <iframe
               className="w-full h-full"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d40975.41230860479!2d-107.3674812593532!3d24.804047330959698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2smx!4v1710782948120!5m2!1ses!2smx"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.8728671992358!2d-107.41380472391187!3d24.83402094631364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86bcda6af7167899%3A0xae1c6c4ec6636dcc!2sEmile%20Barline%201527%2C%20Pedregal%20del%20Humaya%2C%2080029%20Culiac%C3%A1n%20Rosales%2C%20Sin.!5e0!3m2!1ses!2smx!4v1712000116949!5m2!1ses!2smx"
               style={{ border: 0 }}
               allowfullscreen=""
               loading="lazy"

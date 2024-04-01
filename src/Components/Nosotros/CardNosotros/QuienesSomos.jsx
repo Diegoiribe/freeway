@@ -7,7 +7,7 @@ const QuienesSomos = () => {
       <div
         className="phone:w-full tablet:w-4/5 phone:h-2/4 tablet:h-full rounded-xl bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url(https://img.interempresas.net/fotos/1604410.jpeg)`,
+          backgroundImage: `url(https://pbs.twimg.com/media/GKGk82-a4AErMQ2?format=jpg&name=large)`,
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat'
         }}

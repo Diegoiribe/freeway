@@ -7,7 +7,7 @@ const Home = () => {
 
   console.log(isOpen)
   return (
-    <div className="flex flex-col gap-1 h-screen w-screen">
+    <div id="inicio" className="flex flex-col gap-1 h-screen w-screen">
       <Nav isOpen={isOpen} setIsOpen={setIsOpen} />
       <div
         className="phone:p-2  h-full w-full phone:block mac:flex  justify-center items-center"

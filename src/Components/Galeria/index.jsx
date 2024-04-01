@@ -13,22 +13,22 @@ const Galeria = () => {
 
   const taller = [
     {
-      img: 'https://talleractual.com/images/articles/taller-actual/notas/institucionales/2018/01/tecnica-2018-01-12-zona-segura-para-el-taller-mecanico-01.jpg',
+      img: 'https://pbs.twimg.com/media/GKGk81Va4AIYkon?format=jpg&name=large',
       title: 'Menu',
       value: 0
     },
     {
-      img: 'https://alianzaautomotriz.com/wp-content/uploads/2020/12/perspectivas-2021.jpg',
+      img: 'https://pbs.twimg.com/media/GKGk51maYAA48cE?format=jpg&name=large',
       title: 'Menu',
       value: 0
     },
     {
-      img: 'https://talleractual.com/images/contenido/negocios-y-autopartes/mercado-local/mercado-de-posventa/2019/04/2019-04-26-talleres-mecanicos-como-evitar-multas-y-clausuras-1-01.jpg',
+      img: 'https://pbs.twimg.com/media/GKGk83daUAA24PJ?format=jpg&name=large',
       title: 'Menu',
       value: 0
     },
     {
-      img: 'https://lh3.googleusercontent.com/proxy/o-KM7KcVfq-TrfBoFw2c5XqkF2wXLR-lf3Kbwx5bnaIdvgrrADygd-2vOS0iIK9YnH3NHaq2w2utB0jSQ3GXe4ZV7pyOjiflMvUXMNfiK8MVEzttMt1YtSWSm-NFSvGW4YKKhTTr8lgi8njxFGNeHls3H_CNTHwPniF7L1XNJC2OkQvAPVzi8ZFqr0k',
+      img: 'https://pbs.twimg.com/media/GKGk82eaUAAIorN?format=jpg&name=large',
       title: 'Menu',
       value: 0
     }
@@ -46,12 +46,12 @@ const Galeria = () => {
       value: 0
     },
     {
-      img: 'https://mobil.pe/wp-content/uploads/2022/04/consejos-brindar-mejor-servicio-taller-automotriz.webp',
+      img: 'https://pbs.twimg.com/media/GKGk81Va4AIYkon?format=jpg&name=large',
       title: 'Menu',
       value: 0
     },
     {
-      img: 'https://estaticosgn-cdn.deia.eus/clip/1f5b22b9-df8e-4563-aa84-06314b5875d0_16-9-discover-aspect-ratio_default_0.jpg',
+      img: 'https://pbs.twimg.com/media/GKGk51oa4AARMvC?format=jpg&name=large',
       title: 'Menu',
       value: 0
     }
@@ -59,22 +59,22 @@ const Galeria = () => {
 
   const trabajos = [
     {
-      img: 'https://mobil.pe/wp-content/uploads/2022/04/consejos-brindar-mejor-servicio-taller-automotriz.webp',
+      img: 'https://pbs.twimg.com/media/GKGk81Va4AIYkon?format=jpg&name=large',
       title: 'Menu',
       value: 0
     },
     {
-      img: 'https://gemicar.net/wp-content/uploads/2022/06/como-distribuir-un-taller-mecanico.jpg',
+      img: 'https://pbs.twimg.com/media/GKGk51ja4AEb7jK?format=jpg&name=large',
       title: 'Menu',
       value: 0
     },
     {
-      img: 'https://noticiaspueblabla.com/wp-content/uploads/2020/05/direct_express_puebla_01-1024x597.jpg',
+      img: 'https://pbs.twimg.com/media/GKGk51laUAAySVZ?format=jpg&name=large',
       title: 'Menu',
       value: 0
     },
     {
-      img: 'https://www.beedigital.es/wp-content/uploads/2020/09/37625a509c1b129a13cd38630b5feb4a473835078-1.jpg',
+      img: 'https://pbs.twimg.com/media/GKGlAMka4AAYS2F?format=jpg&name=large',
       title: 'Menu',
       value: 0
     }
@@ -82,22 +82,22 @@ const Galeria = () => {
 
   const servicios = [
     {
-      img: 'https://mobil.pe/wp-content/uploads/2022/04/consejos-brindar-mejor-servicio-taller-automotriz.webp',
+      img: 'https://pbs.twimg.com/media/GKGk81Va4AIYkon?format=jpg&name=large',
       title: 'Menu',
       value: 0
     },
     {
-      img: 'https://gemicar.net/wp-content/uploads/2022/06/como-distribuir-un-taller-mecanico.jpg',
+      img: 'https://pbs.twimg.com/media/GKGk51ja4AEb7jK?format=jpg&name=large',
       title: 'Menu',
       value: 0
     },
     {
-      img: 'https://noticiaspueblabla.com/wp-content/uploads/2020/05/direct_express_puebla_01-1024x597.jpg',
+      img: 'https://pbs.twimg.com/media/GKGk51laUAAySVZ?format=jpg&name=large',
       title: 'Menu',
       value: 0
     },
     {
-      img: 'https://www.beedigital.es/wp-content/uploads/2020/09/37625a509c1b129a13cd38630b5feb4a473835078-1.jpg',
+      img: 'https://pbs.twimg.com/media/GKGlAMka4AAYS2F?format=jpg&name=large',
       title: 'Menu',
       value: 0
     }
@@ -147,6 +147,7 @@ const Galeria = () => {
     <>
       {phone ? null : (
         <div
+          id="galeria"
           className="h-screen w-screen flex flex-col justify-center items-center "
           style={{ background: 'linear-gradient(to bottom, #EEF3F6, #FFFFFF)' }}
         >

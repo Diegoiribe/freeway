@@ -7,7 +7,7 @@ const Valores = () => {
       <div
         className="phone:w-full tablet:w-4/5 phone:h-2/4 tablet:h-full rounded-xl bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url(https://www.cocheactual.com/wp-content/uploads/2023/03/problemas-de-los-talleres-mecanicos.jpg)`,
+          backgroundImage: `url(https://pbs.twimg.com/media/GKGlAL5a4AIOh3z?format=jpg&name=large)`,
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat'
         }}

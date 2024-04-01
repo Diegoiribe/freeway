@@ -6,7 +6,7 @@ const Mision = () => {
       <div
         className="phone:w-full tablet:w-4/5 phone:h-2/4 tablet:h-full rounded-xl bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url(https://periodicocorreo.com.mx/__export/sites/correo/img/2022/10/27/Taller-mecanico-1-295031847.webp)`,
+          backgroundImage: `url(https://pbs.twimg.com/media/GKGk51oa4AARMvC?format=jpg&name=large)`,
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat'
         }}

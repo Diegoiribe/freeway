@@ -13,17 +13,33 @@ const Footer = () => {
           </p>
         </div>
         <div className="flex flex-col gap-2 phone:mb-8 tablet:mb-0">
-          <p className="text-white font-bold">Inicio</p>
-          <p className="text-white font-bold">Servicios</p>
-          <p className="text-white font-bold">Nosotros</p>
-          <p className="text-white font-bold">Galeria</p>
-          <p className="text-white font-bold">Contacto</p>
+          <a href="#inicio">
+            <p className="text-white font-bold">Inicio</p>
+          </a>
+          <a href="#servicios">
+            <p className="text-white font-bold">Servicios</p>
+          </a>
+          <a href="#nosotros">
+            <p className="text-white font-bold">Nosotros</p>
+          </a>
+          <a href="#galeria">
+            <p className="text-white font-bold">Galeria</p>
+          </a>
+          <a href="#contacto">
+            <p className="text-white font-bold">Contacto</p>
+          </a>
         </div>
         <div className="phone:flex phone:flex-col phone:justify-center phone:items-center tablet:block">
           <div className="flex gap-5">
-            <WhatsAppIcon fontSize="large" style={{ color: '#40bc78' }} />
-            <FacebookIcon fontSize="large" style={{ color: '#406bbc' }} />
-            <InstagramIcon fontSize="large" style={{ color: '#bc40b4' }} />
+            <a href="https://wa.me/526671390893">
+              <WhatsAppIcon fontSize="large" style={{ color: '#40bc78' }} />
+            </a>
+            <a href="#">
+              <FacebookIcon fontSize="large" style={{ color: '#406bbc' }} />
+            </a>
+            <a href="https://www.instagram.com/freewaytallermecanico/">
+              <InstagramIcon fontSize="large" style={{ color: '#bc40b4' }} />
+            </a>
           </div>
           <p className="text-white mt-6 font-bold">Tel: 66-74-62-89-85</p>
           <p className="text-white mt-3 font-bold">E-mail: contacto@info.com</p>

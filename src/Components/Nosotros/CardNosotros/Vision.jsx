@@ -7,7 +7,7 @@ const Vision = () => {
       <div
         className="phone:w-full tablet:w-4/5 phone:h-2/4 tablet:h-full rounded-xl bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url(https://1.bp.blogspot.com/-SHn3bipJIN0/V6gNTWSDYBI/AAAAAAAAAfY/G6LK2HlDzQ4-VtA0QiL0Sh5lfD_ZHwSbQCLcB/s1600/taller4.png)`,
+          backgroundImage: `url(https://pbs.twimg.com/media/GKGk83daUAA24PJ?format=jpg&name=large)`,
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat'
         }}

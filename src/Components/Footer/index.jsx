@@ -41,8 +41,10 @@ const Footer = () => {
               <InstagramIcon fontSize="large" style={{ color: '#bc40b4' }} />
             </a>
           </div>
-          <p className="text-white mt-6 font-bold">Tel: 66-74-62-89-85</p>
-          <p className="text-white mt-3 font-bold">E-mail: contacto@info.com</p>
+          <p className="text-white mt-6 font-bold">Tel: 66-71-39-08-93</p>
+          <p className="text-white mt-3 font-bold">
+            E-mail: freewaytallermecanico@gmail.com
+          </p>
         </div>
       </div>
       <div className="bg-white w-full flex justify-center items-center h-14">

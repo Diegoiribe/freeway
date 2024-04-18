@@ -18,11 +18,7 @@ const Destacados = () => {
       title: 'Afinacion Menor',
       link: 'Agendar Servicio'
     },
-    {
-      img: 'https://s3.amazonaws.com/static.autolab.com.co/assets/images/autobooking/autobooking_icons/latoneria_y_pintura-v3.svg',
-      title: 'Hojalateria y Pintura',
-      link: 'Agendar Servicio'
-    },
+
     {
       img: 'https://s3.amazonaws.com/static.autolab.com.co/assets/images/autobooking/autobooking_icons/revision_por_kilometraje-v3.svg',
       title: 'Mantemiento por Kilometraje',

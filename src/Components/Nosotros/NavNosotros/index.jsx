@@ -4,6 +4,7 @@ import Mision from '../CardNosotros/Mision'
 import Vision from '../CardNosotros/Vision'
 import Valores from '../CardNosotros/Valores'
 import Objetivos from '../CardNosotros/Objetivos'
+import './style.css'
 
 const NavNosotros = () => {
   const [aboutActive, setAboutActive] = useState('Nosotros')

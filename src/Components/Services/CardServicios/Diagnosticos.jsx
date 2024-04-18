@@ -20,7 +20,7 @@ const Diagnosticos = () => {
     },
     {
       img: 'https://s3.amazonaws.com/static.autolab.com.co/assets/images/autobooking/autobooking_icons/diagnostic_diagnostic_abs-v3.svg',
-      title: 'Falla en los Testigos',
+      title: 'Falla en los Testigos y bolsa de aire',
       link: 'Agendar Servicio'
     },
     {
@@ -31,6 +31,26 @@ const Diagnosticos = () => {
     {
       img: 'https://s3.amazonaws.com/static.autolab.com.co/assets/images/autobooking/autobooking_icons/diagnostic_disco-de-freno-v3.svg',
       title: 'Falla en los Frenos',
+      link: 'Agendar Servicio'
+    },
+    {
+      img: 'https://s3.amazonaws.com/static.autolab.com.co/assets/images/autobooking/autobooking_icons/diagnostic_gota-de-sangre-v3.svg',
+      title: 'Reparacion de full inyection',
+      link: 'Agendar Servicio'
+    },
+    {
+      img: 'https://s3.amazonaws.com/static.autolab.com.co/assets/images/autobooking/autobooking_icons/diagnostic_diagnostic_abs-v3.svg',
+      title: 'Diagnostico con computadora',
+      link: 'Agendar Servicio'
+    },
+    {
+      img: 'https://s3.amazonaws.com/static.autolab.com.co/assets/images/autobooking/autobooking_icons/diagnostic_caja-de-cambios-v3.svg',
+      title: 'Cambio de banda de tiempo',
+      link: 'Agendar Servicio'
+    },
+    {
+      img: 'https://s3.amazonaws.com/static.autolab.com.co/assets/images/autobooking/autobooking_icons/diagnostic_disco-de-freno-v3.svg',
+      title: 'Mecanica general',
       link: 'Agendar Servicio'
     }
   ])

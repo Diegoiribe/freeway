@@ -32,6 +32,21 @@ const Mecanica = () => {
       img: 'https://s3.amazonaws.com/static.autolab.com.co/assets/images/autobooking/autobooking_icons/kit_de_embrague-v3.svg',
       title: 'Cambio de Kit de Clutch',
       link: 'Agendar Servicio'
+    },
+    {
+      img: 'https://s3.amazonaws.com/static.autolab.com.co/assets/images/autobooking/autobooking_icons/frenos2-v3.svg',
+      title: 'Mecanica general',
+      link: 'Agendar Servicio'
+    },
+    {
+      img: 'https://s3.amazonaws.com/static.autolab.com.co/assets/images/autobooking/autobooking_icons/amortiguadores-v3.svg',
+      title: 'Bomba de agua',
+      link: 'Agendar Servicio'
+    },
+    {
+      img: 'https://s3.amazonaws.com/static.autolab.com.co/assets/images/autobooking/autobooking_icons/correa_de_reparticion-v3.svg',
+      title: 'Bomba de gasolina',
+      link: 'Agendar Servicio'
     }
   ])
 

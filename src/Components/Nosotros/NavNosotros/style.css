@@ -1,0 +1,19 @@
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color de tu elección */
+  border-radius: 8px; /* El border-radius que prefieras */
+}
+
+/* Opcional: Puedes también redondear la pista de la barra */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color de fondo de la pista */
+  border-radius: 8px; /* El mismo border-radius para mantener la consistencia */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* o el color que prefieras */
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px; /* o el tamaño que prefieras */
+}

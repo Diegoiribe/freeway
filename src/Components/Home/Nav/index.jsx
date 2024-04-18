@@ -12,7 +12,7 @@ const Nav = ({ isOpen, setIsOpen }) => {
           style={{ height: isOpen ? '100vh' : 'auto' }}
         >
           <div className="flex justify-between items-center px-4 mac:px-10">
-            <h1 className="text-4xl font-bold ">FreeWay</h1>
+            <h1 className="text-4xl font-bold overflow-hidden">FreeWay</h1>
             <button onClick={() => setIsOpen(!isOpen)} className="mac:hidden">
               {/* Aquí puedes usar un ícono para el menú de hamburguesa */}
               <span>Menu</span>
@@ -41,7 +41,7 @@ const Nav = ({ isOpen, setIsOpen }) => {
         </nav>
       ) : (
         <nav className="flex flex-row justify-around shadow-custom py-4 overflow-hidden">
-          <h1 className="text-4xl font-bold h-10">FreeWay</h1>
+          <h1 className="text-4xl font-bold h-10 overflow-hidden">FreeWay</h1>
           <ul className="flex flex-row gap-5 items-center justify-center">
             <a href="#inicio">
               <li className="text-xl">Inicio</li>
@@ -50,11 +50,9 @@ const Nav = ({ isOpen, setIsOpen }) => {
               <li className="text-xl">Servicios</li>
             </a>
             <a href="#nosotros">
-              {' '}
               <li className="text-xl">Nosotros</li>
             </a>
             <a href="#galeria">
-              {' '}
               <li className="text-xl">Galeria</li>
             </a>
             <a href="#contacto">
